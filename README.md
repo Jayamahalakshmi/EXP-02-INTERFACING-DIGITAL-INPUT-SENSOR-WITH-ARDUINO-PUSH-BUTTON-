@@ -1,6 +1,7 @@
 # EXP-02-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON
 
 AIM:  
+     
      To interface a digital input (push button) and blink and LED upon activation.
 COMPONENTS REQUIRED:
 1.	1 KΩ Resistor 
@@ -68,6 +69,7 @@ FIGURE -03
 
 
 PROGRAM 
+
 const int BUTTON = 2;
 
 const int LED = 8;
@@ -77,12 +79,13 @@ int BUTTONstate = 0;
 void setup()
 
 {
-
+  
   pinMode(BUTTON, INPUT);
   
   pinMode(LED, OUTPUT);
   
 }
+
 void loop()
 
 {
@@ -108,16 +111,17 @@ void loop()
  
  
  
- 
 
 
 
 Output of the simulation :
 
-[Screenshot (5)](https://user-images.githubusercontent.com/104053532/169107231-e13ab2d6-8829-4532-8cfb-5ef504f5ac0e.png)
-(username.github.com/repository/img/image.jpg)
+
+![Screenshot (6)](https://user-images.githubusercontent.com/104053532/169108285-f1ab026e-ca7c-4339-a475-b5c0e7279268.png)
+
 
 Result:
+     
      Thus, we have interfaced a digital input (push button) and blink of LED upon activation.
 
 
