@@ -1,6 +1,7 @@
 # EXP-02-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON
 
-AIM:  To interface a digital input (push button) and blink and LED upon activation.
+AIM:  
+     To interface a digital input (push button) and blink and LED upon activation.
 COMPONENTS REQUIRED:
 1.	1 KΩ Resistor 
 2.	Arduino Uno 
@@ -78,4 +79,8 @@ PROGRAM
 Output of the simulation :
 
 [My image](username.github.com/repository/img/image.jpg)
+
+Result:
+     Thus, we have interfaced a digital input (push button) and blink of LED upon activation.
+
 
